@@ -1,7 +1,6 @@
 import {Pressable, ScrollView, Text, View} from "react-native";
 
-
-export default function TodoLIst() {
+export default function ToDoList() {
   return (
     <ScrollView>
       <Pressable>
@@ -20,5 +19,5 @@ export default function TodoLIst() {
         </View>
       </Pressable>
     </ScrollView>
-  );
+  )
 }
